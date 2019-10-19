@@ -1,0 +1,15 @@
+Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 18:11:49) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> A=14
+>>> B=34
+>>> C=15
+>>> print ("Vse peremenie") , (A,B,C)
+Vse peremenie
+(None, (14, 34, 15))
+>>> print ("Max2") , max (A,B,C)
+Max2
+(None, 34)
+>>> print ("Min") , min (A,B,C)
+Min
+(None, 14)
+>>> 
