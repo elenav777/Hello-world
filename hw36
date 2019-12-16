@@ -1,0 +1,23 @@
+Дан одномерный массив числовых значений, насчитывающий N элементов.
+Вставить группу из M новых элементов, начиная с позиции K.
+
+import array
+>>> import random
+>>> M = random.randint(1,10)
+>>> K = random.randint(1,5)
+>>> N = random.randint(1,10)
+>>> arr = [random.randint(1,100) for i in range(N)]
+>>> print("N= " + str(N))
+N= 7
+>>> print("K= " + str(K))
+K= 2
+>>> print("M= " + str(M))
+M= 7
+>>> print(arr)
+[45, 67, 97, 9, 12, 28, 8]
+>>> arr2 = [random.randint(1,100) for i in range(M)]
+>>> print(arr2)
+[43, 75, 74, 50, 62, 35, 4]
+>>> arr.insert(K, arr2)
+>>> print(arr)
+[45, 67, [43, 75, 74, 50, 62, 35, 4], 97, 9, 12, 28, 8]
