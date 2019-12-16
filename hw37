@@ -1,0 +1,21 @@
+Дан одномерный массив числовых значений, насчитывающий N элементов.
+Сумму элементов массива и количество положительных элементов поставить на первое и второе место.
+
+import random
+>>> N = random.randint(1,10)
+>>> arr = [random.randint(-100,100) for i in range(N)]
+>>> print(arr)
+[7, 86, 83, 27, 23, 20, -50, 91, -65]
+>>> S = sum(arr)
+>>> print ("Sum arr: " + str (S))
+Sum arr: 222
+>>> K=0
+>>> for i in range(N):
+	if arr[i]>=0:
+            K+=1
+    print("positive numbers in array: " + str(K))
+
+    arr.insert(0,S)
+    arr.insert(1,K)
+    print(arr)
+    
