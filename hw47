@@ -1,0 +1,17 @@
+Дан одномерный массив числовых значений, насчитывающий N элементов.
+Исключить из массива элементы, принадлежащие промежутку [B; C].
+
+import random
+>>> N = random.randint (1,15)
+>>> arr = [random.randint (-100,100) for i in range (N)]
+>>> print(arr)
+[-44, -98, -62, -61, -71, 20, -81, -39, -97, 62, -38, 7]
+>>> B = random.randint(1,10)
+>>> print("B = " +str(B))
+T = 5
+>>> C = random.randint(1,10)
+print("C= "+ыек(С))
+arr[B:C]=[]
+print(arr)
+
+	
